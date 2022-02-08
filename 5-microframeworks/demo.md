@@ -6,7 +6,7 @@ Takeaway
 - ...that are _much_ smaller => better for performance
 - ...that don't lock you in to an ecosystem.
 - ...that let you DIY more and that's not so bad. Transferable skills.
-- less code => you can study/hack/fork it yourself
+- ...with code that is easy to understand/hack/fork
 
 Problems:
 
