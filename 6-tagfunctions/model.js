@@ -1,12 +1,11 @@
+export const Init = () => ({ counter: 5 })
 
-export const Init = () => ({counter: 5})
-
-export const CounterPlus = (state) => ({
+export const CounterPlus = state => ({
   ...state,
-  counter: state.counter + 1
+  counter: state.counter + 1,
 })
 
-export const CounterMinus = (state) => ({
+export const CounterMinus = state => ({
   ...state,
-  counter: state.counter - 1
+  counter: state.counter - 1,
 })

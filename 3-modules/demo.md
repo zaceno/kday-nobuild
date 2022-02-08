@@ -2,7 +2,8 @@ Our example broken in to modules. This time we added versions of different modul
 
 Takeaway:
 
-- Nothing. This was pretty obvious ;)
+- skypack dependency version: use `@x.y.z` suffix
+- own-module-imports start with './', '../' or '/' and end with '.js'
 
 Problem:
 
@@ -12,4 +13,5 @@ Problem:
 Solution:
 
 - Many modules: serve with HTTP/2!
-- Dependency/version management: Use importmaps.
+- You could have a `deps.js` module...
+- ... better yet: importmaps!

@@ -6,7 +6,6 @@ Takeaway
 - ...that are _much_ smaller => better for performance
 - ...that don't lock you in to an ecosystem.
 - ...that let you DIY more and that's not so bad. Transferable skills.
-- VDOM is most of what you need a library for anyway.
 - less code => you can study/hack/fork it yourself
 
 Problems:
