@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "target": "esnext",
+    "strict": true,
+    "noImplicitThis": false,
+    "baseUrl": "./",
+    "paths": {
+      "hyperapp": [".types/hyperapp.d.ts"],
+      "@hyperapp/html": [".types/hyperapp-html.d.ts"]
+    }
+  },
+  "include": [".types/*.d.ts", "./*.js"]
+}
