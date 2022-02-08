@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "strict": true,
+    "noImplicitThis": false,
+    "baseUrl": ".",
+    "paths": {
+      "hyperapp": [".types/hyperapp.d.ts"],
+      "@hyperapp/html": [".types/hyperapp-html.d.ts"],
+      "@/*": ["./app/*"]
+    }
+  },
+  "include": [".types/*.d.ts", "app/**/*.js"]
+}
