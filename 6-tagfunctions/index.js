@@ -1,6 +1,6 @@
 import { app } from "hyperapp"
 import { Init } from "./model.js"
-import AppView from "./app.js"
+import AppView from "./App.js"
 
 app({
   init: Init,

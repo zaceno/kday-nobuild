@@ -1,5 +1,5 @@
 import { render } from "petit-dom"
-import App from "./app.js"
+import App from "./App.js"
 
 const node = document.getElementById("container")
 
