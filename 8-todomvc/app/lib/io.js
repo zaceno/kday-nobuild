@@ -1,5 +1,5 @@
 /** @typedef {{selector: string}} FocuserProps */
-
+// "as const" in jsdoc requires typescript version 4.5
 /**
  * @param {any} _
  * @param {FocuserProps} options
