@@ -7,8 +7,12 @@ Takeaway
 - Intellisense / TSC understands JSDoc syntax
 - We get type-safety as we code, and our code still runs in browsers.
 
-That's all folks!
+Problem
 
-- Have a look at 8-todomvc for a more realistic demo of these techniques together.
-- Play around with it and see what you like/don't like about it.
-- Think about how some of these ideas might impact your work as a front-end coder.
+- Testing ?
+
+Solution
+
+- Honestly havent' looked at it so much.
+- Running & reporting in browser works fine too (was done in ages past)
+- Running tests in a real browser means you don't need "fake" browser environments like Jest has
