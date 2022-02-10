@@ -1,7 +1,7 @@
 import * as actions from "@/actions.js"
 import { app } from "hyperapp"
-const assert = chai.assert
-import mocha from "https://cdn.skypack.dev/mocha/mocha.js"
+const assert = window.chai.assert
+import mocha from "mocha"
 mocha.setup("tdd")
 
 suite("Add Items", () => {
@@ -12,7 +12,6 @@ suite("Add Items", () => {
       init: actions.Init,
       dispatch: d => (action, payload) => {
         if (typeof action !== "function" && !Array.isArray(action)) {
-          console.log("SETTING STATE", action)
           state = action
         }
         d(action, payload)

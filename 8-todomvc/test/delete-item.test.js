@@ -1,7 +1,7 @@
 import * as actions from "@/actions.js"
 import { app } from "hyperapp"
-const assert = chai.assert
-import mocha from "https://cdn.skypack.dev/mocha/mocha.js"
+const assert = window.chai.assert
+import mocha from "mocha"
 mocha.setup("tdd")
 
 suite("Delete Items", () => {
