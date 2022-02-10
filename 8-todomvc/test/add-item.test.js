@@ -1,3 +1,4 @@
+/*global window suite setup teardown */
 import * as actions from "@/actions.js"
 import { app } from "hyperapp"
 const assert = window.chai.assert
