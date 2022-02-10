@@ -8,9 +8,11 @@ Takeaway:
 - Importmaps are not mature :(
 - Importmaps require shim for Safari/Firefox
 
-Problem
+Problem:
 
-- React is a large import. 24kB or so
+React is cool in lots of ways! Made by very smart people. Yet...
+
+- React is a large (~25kB) import that does way more than we need.
 - React is opaque and magical. How do hooks work? Who knows 🤷‍♂️
 - React makes you do everything the react-way
 - More study of react & ecosystem, less study of native browser APIs
