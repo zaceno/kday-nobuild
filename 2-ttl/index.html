@@ -2,9 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <script type="module" src="index.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/htm" crossorigin></script>
   </head>
   <body>
     <div id="container"></div>    
+    <script>
+
+const html = htm.bind(React.createElement)
+
+const Counter = () => {
+  const [state, setState] = React.useState(5)
+  return html`
+    <div>
+      <h1>${state}</h1>
+      <button onClick=${() => setState(state - 1)}>-</button>
+      <button onClick=${() => setState(state + 1)}>+</button>
+    </div>`
+}
+
+const App = () => {
+  return html`
+    <main>
+      <h2>My Counter App</h2>
+      <${Counter} />
+    </main>`
+}
+
+ReactDOM.render(html`<${App} />`, document.getElementById("container"))
+
+    </script>
   </body>
 </html>
