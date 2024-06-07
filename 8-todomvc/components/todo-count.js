@@ -1,4 +1,4 @@
-import { span, text } from "@hyperapp/html"
+import { span, text } from "html"
 
 /**
  * @param {object} props

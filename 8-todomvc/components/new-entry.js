@@ -1,4 +1,4 @@
-import { input } from "@hyperapp/html"
+import { input } from "html"
 import { withTargetValue, withEnterKey } from "@/lib/decorators.js"
 import { InputNewItem, AddItem } from "@/actions.js"
 

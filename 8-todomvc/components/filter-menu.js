@@ -1,4 +1,4 @@
-import { ul, li, a, text } from "@hyperapp/html"
+import { ul, li, a, text } from "html"
 
 /** @typedef {'all' | 'completed' | 'active'} Filter */
 

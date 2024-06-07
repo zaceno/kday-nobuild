@@ -1,4 +1,4 @@
-import { focuser } from "./lib/io.js"
+import { focuser } from "@/lib/io.js"
 
 /**
  * Global state type definingion

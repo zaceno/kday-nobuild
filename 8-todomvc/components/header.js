@@ -1,4 +1,4 @@
-import { header, h1, text } from "@hyperapp/html"
+import { header, h1, text } from "html"
 import newEntry from "./new-entry.js"
 
 /**

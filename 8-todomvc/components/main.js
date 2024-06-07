@@ -1,4 +1,4 @@
-import { section } from "@hyperapp/html"
+import { section } from "html"
 import todoList from "@/components/todo-list.js"
 import toggleAll from "@/components/toggle-all.js"
 import footer from "@/components/footer.js"

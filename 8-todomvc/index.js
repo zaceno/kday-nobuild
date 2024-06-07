@@ -1,5 +1,5 @@
 import { app } from "hyperapp"
-import { Init } from "./actions.js"
+import { Init } from "@/actions.js"
 import view from "@/components/main.js"
 import subscriptions from "@/subscriptions.js"
 

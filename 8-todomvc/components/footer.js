@@ -1,4 +1,4 @@
-import { footer } from "@hyperapp/html"
+import { footer } from "html"
 import todoCount from "./todo-count.js"
 import filterMenu from "./filter-menu.js"
 import clearCompleted from "./clear-completed.js"

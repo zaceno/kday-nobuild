@@ -1,4 +1,4 @@
-import { ul, li } from "@hyperapp/html"
+import { ul, li } from "html"
 import todoItemView from "./todo-item-view.js"
 import todoItemInput from "./todo-item-input.js"
 import { ToggleDone, StartEditing, DeleteItem } from "@/actions.js"

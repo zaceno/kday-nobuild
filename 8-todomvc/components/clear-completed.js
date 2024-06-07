@@ -1,4 +1,4 @@
-import { button, text } from "@hyperapp/html"
+import { button, text } from "html"
 import { ClearDone } from "@/actions.js"
 
 /**

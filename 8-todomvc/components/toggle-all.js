@@ -1,4 +1,4 @@
-import { div, input, label, text } from "@hyperapp/html"
+import { div, input, label, text } from "html"
 import { SetAllDone } from "@/actions.js"
 
 /**
