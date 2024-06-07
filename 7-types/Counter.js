@@ -1,5 +1,5 @@
-import { div, h1, button, text } from "@hyperapp/html"
-import { CounterPlus, CounterMinus } from "./model.js"
+import { div, h1, button, text } from "html"
+import { CounterPlus, CounterMinus } from "@/model.js"
 
 /**
  * @param {object} props

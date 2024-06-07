@@ -1,9 +1,8 @@
 import { app } from "hyperapp"
-import { Init } from "./model.js"
-import AppView from "./App.js"
+import App from "./App.js"
 
 app({
-  init: Init,
-  view: state => AppView({ state }),
+  init: 5,
+  view: value => App(value),
   node: document.getElementById("container"),
 })

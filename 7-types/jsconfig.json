@@ -7,7 +7,9 @@
     "baseUrl": "./",
     "paths": {
       "hyperapp": [".types/hyperapp.d.ts"],
-      "@hyperapp/html": [".types/hyperapp-html.d.ts"]
+      "html": [".types/hyperapp-html.d.ts"],
+      "@/*": ["./*"]
+
     }
   },
   "include": [".types/*.d.ts", "./*.js"]

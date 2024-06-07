@@ -1,4 +1,4 @@
-declare module "@hyperapp/html" {
+declare module "html" {
   import { ElementVNode, MaybeVNode, Props, CustomPayloads } from "hyperapp"
   export type Content<S> = MaybeVNode<S>[] | MaybeVNode<S>
 
