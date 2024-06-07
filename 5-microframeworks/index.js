@@ -12,4 +12,4 @@ const update = state =>
     node
   )
 
-update({ counter: 3 })
+update({ counter: 5 })

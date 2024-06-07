@@ -1,12 +1,13 @@
 import { app } from "hyperapp"
-import { Init } from "@/model.js"
-import AppView from "@/App.js"
+import App from "@/App.js"
+/** @typedef {import('@/App.js').State} State  */
 
 const node = document.getElementById("container")
 if (!node) throw new Error("Missing mountpoint!")
 
 app({
-  init: Init,
-  view: state => AppView({ state }),
+  /** @type {State} */
+  init: {counter: 5},
+  view: state => App(state),
   node,
 })

@@ -1,13 +1,14 @@
 import { div, h1, button, text } from "html"
-import { CounterPlus, CounterMinus } from "@/model.js"
 
 /**
+ * @template S -- State type of app using component
  * @param {object} props
- * @param {number} props.value
+ * @param {number} props.value -- value of counter
+ * @param {import('hyperapp').Action<S, number>} props.setValue -- action to set value
  */
-export default ({ value }) =>
+export default ({ value, setValue }) =>
   div([
     h1(text(value)),
-    button({ onclick: CounterMinus }, text("-")),
-    button({ onclick: CounterPlus }, text("+")),
+    button({ onclick: [setValue, value - 1] }, text("-")),
+    button({ onclick: [setValue, value + 1] }, text("+")),
   ])
