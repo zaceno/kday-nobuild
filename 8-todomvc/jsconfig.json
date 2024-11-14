@@ -5,10 +5,10 @@
     "noImplicitThis": false,
     "baseUrl": ".",
     "paths": {
-      "hyperapp": [".types/hyperapp.d.ts"],
-      "html": [".types/html.d.ts"],
+      "hyperapp": ["types/hyperapp.d.ts"],
+      "html": ["types/html.d.ts"],
       "@/*": ["./*"]
     }
   },
-  "include": [".types/*.d.ts", "**/*.js"]
+  "include": ["types/*.d.ts", "**/*.js"]
 }
