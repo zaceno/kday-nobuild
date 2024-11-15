@@ -6,7 +6,7 @@ import { div, h1, button, text } from "html"
  * @param {import('hyperapp').Action<any, number>} props.setValue -- action to set value
  */
 export default ({ value, setValue }) =>
-  div([
+  div({ style: { background: "red" } }, [
     h1(text(value)),
     button({ onclick: [setValue, value - 1] }, text("-")),
     button({ onclick: [setValue, value + 1] }, text("+")),
